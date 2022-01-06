@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Lato:wght@300&family=Nunito:ital@1&family=PT+Sans:wght@700&family=Roboto+Condensed:wght@700&family=Roboto:wght@700&family=Source+Code+Pro&display=swap');
+
+* {
+    padding: 0; margin: 0;
+    background-color: black;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#topText {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #5865F2;
+}
+
+#scoreBox {
+    padding-top: 30px;
+    padding-bottom: 150px;
+
+    width: 30%;
+    margin-left: 670px;
+
+    
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#scoreBox p{
+    padding-top: 6px;
+    color: white;
+}
+
+#scoree {
+    color: white;
+}
+
+#howTo {
+    color: #5865F2;
+}
+
+#rollButton {
+    cursor: pointer;
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    background-color: aliceblue;
+
+    border-radius: 12px;
+    font-size: 10px;
+    
+    margin-top: 20px;
+
+    width: 30%;
+
+    margin-left: 198px;
+    
+    border: 2px;
+}
+
+#rollButton button{
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+#myScore {
+    padding-right: 55px;
+    padding-top: 10px;
+}
+
+#myScore p{
+    font-size: 30px;
+    margin-top: -43px;
+    margin-left: 205px;
+}
+
+#youLost {
+    padding: 0; margin: 0;
+}
+
+#youWon {
+    padding: 0; margin: 0;
+}
+
+#images {
+    width: 20%;
+    margin-top: 60px;
+}

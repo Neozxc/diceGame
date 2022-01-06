@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div id="topText">
+        <h1>You ready for this?! Lets go!</h1>
+    </div>
+
+    <div id="scoreBox">
+        <h1 id="howTo">How to Play?</h1>
+        <p>You have to roll 20 or more before you roll 1.</p>
+        <p>If you roll 20 or more victory is yours.</p>
+        <p>If you roll 1 then... Goodbye.</p>
+
+        <div id="rollButton">
+            <button type="button">press to start rolling</button>
+        </div>
+
+        <div id="myScore">
+            <h1 id="scoree">My Score:</h1>
+            <p id="theScore">---</p>
+        </div>
+
+        <div id="winOrLose">
+            <h1 id="youLost">Awh, you insta lost! :(</h1>
+            <h1 id="youWon">Huuurayy! You Won! :D</h1>
+        </div>
+
+        <audio id="audioLost" src="bruh.mp3"></audio>
+        <audio id="audioWon" src="nice.mp3"></audio>
+
+        <div id="theimage">
+            <img id="images">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
